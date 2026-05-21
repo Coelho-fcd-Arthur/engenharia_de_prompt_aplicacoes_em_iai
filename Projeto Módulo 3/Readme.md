@@ -1,133 +1,154 @@
-# Projeto Módulo 3 – Low Code/No Code/Vibecode
+# Gerenciador de Clientes - Empréstimo Consignado
 
-## 📌 Desafio Escolhido
+> Plataforma moderna de gestão de clientes e oportunidades para empresas de empréstimo consignado, desenvolvida com low-code/no-code.
 
-**Gerenciador de Clientes** para uma empresa de Empréstimo Consignado
-
----
-
-## 🖥️ Protótipo
-
-[![Protótipo Funcional](https://img.shields.io/badge/protótipo-funcional-success)](https://airtable.com/invite/l?inviteId=invXRtQxD6jsvj63B&inviteToken=86551a913a5f7e139889d50e53f14f55120077c82f93db502429804c589b58fa&utm_medium=email&utm_source=product_team&utm_content=transactional-alerts)
-
-### Como Funciona
-
-O sistema permite que o usuário (vendedor) cadastre clientes de forma simples e intuitiva, preenchendo informações essenciais:
-- **Nome do Cliente**
-- **Email**
-- **CPF**
-- **Número de Telefone**
-- **Vínculo** (tipo de relação com a empresa)
-- **Tipo de Operação** (tipo de empréstimo ou serviço)
-- **Nome do Vendedor** (para controle de responsabilidade)
-
-Após o cadastro, os dados são organizados em uma base de dados relacional e podem ser pesquisados, filtrados e atualizados rapidamente através da interface intuitiva do Airtable.
+![Status](https://img.shields.io/badge/status-ativo-success)
+![Platform](https://img.shields.io/badge/plataforma-Lovable-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 ---
 
-## ⚙️ Plataforma Utilizada
+## 📋 Sobre o Projeto
 
-### Airtable
+O **Gerenciador de Clientes** é uma solução integrada que permite que vendedores e gerentes realizem o gerenciamento completo de clientes e oportunidades de forma moderna, intuitiva e segura.
 
-**Justificativa da Escolha:**
+A plataforma foi desenvolvida como projeto aplicado da disciplina de "Engenharia de Prompt e Aplicações em IA", demonstrando como ferramentas low-code combinadas com engenharia de prompts podem criar soluções profissionais em tempo recorde.
 
-O Airtable foi selecionado por unir o poder de um banco de dados relacional à flexibilidade de uma interface no-code personalizada. Os principais motivos foram:
+### 🎯 Objetivos
 
-- **Desenvolvimento Ultra-Rápido**: Permite criar um gerenciador de clientes sem necessidade de codificar um backend do zero
-- **Interface Designer Poderosa**: Possibilita criar uma tela minimalista e focada na experiência do usuário
-- **Autonomia do Usuário**: Oferece total liberdade para o vendedor gerenciar e criar suas próprias listas de oportunidades de forma dinâmica
-- **Segurança e Organização**: Mantém os dados seguros, organizados e prontos para automações que melhoram a qualidade de vida operacional
-
----
-
-## ✅ Vantagens Identificadas
-
-1. **Desenvolvimento Rápido**
-   - Foi possível criar o sistema em pouco tempo, sem necessidade de programação avançada
-   - Redução significativa no time-to-market
-
-2. **Interface Simples e Intuitiva**
-   - A plataforma permitiu organizar as informações de forma visual e fácil de entender
-   - Curva de aprendizado mínima para novos usuários
-
-3. **Facilidade de Gerenciamento**
-   - Sistema permite cadastrar, pesquisar e visualizar clientes rapidamente
-   - Campos de pesquisa dinâmicos facilitam localização de registros
-   - Operações CRUD (Create, Read, Update, Delete) simplificadas
+- Simplificar o cadastro e gerenciamento de clientes
+- Implementar controle granular de acesso por tipo de usuário
+- Facilitar prospecção e acompanhamento de oportunidades
+- Fornecer visibilidade gerencial através de dashboards
+- Reduzir tempo de desenvolvimento com low-code
 
 ---
 
-## ⚠️ Limitações Encontradas
+## ✨ Funcionalidades
 
-1. **Customização Limitada**
-   - Algumas alterações visuais e funcionalidades avançadas dependem das limitações técnicas da plataforma
-   - Restrições no styling e comportamentos personalizados
+### 👤 Para Funcionários
 
-2. **Dependência da Plataforma**
-   - O sistema funciona exclusivamente dentro do Airtable, criando dependência da ferramenta
-   - Migração de dados pode ser complexa em caso de mudança de plataforma
+- ✅ Cadastro intuitivo de clientes
+- ✅ Visualização exclusiva de seus próprios clientes
+- ✅ Edição de informações de clientes
+- ✅ Criação de listas de oportunidades
+- ✅ Atualização de status operacionais
+- ✅ Organização de observações e retornos
+- ✅ Pesquisa e filtros avançados
 
-3. **Restrições do Plano Gratuito**
-   - Algumas automações e funcionalidades avançadas possuem limitações
-   - Controle de acesso baseado em permissões é restrito nos planos mais básicos
+### 👨‍💼 Para Gerentes
 
----
-
-## 📚 Reflexão Crítica
-
-### Desafios Enfrentados e Soluções
-
-Durante o desenvolvimento, enfrentei limitações significativas que exigiram criatividade:
-
-**Problema 1: IA do Airtable Limitada**
-- O assistente de IA do Airtable falhava ao gerar tabelas conectadas em um único comando
-- **Solução Aplicada**: Estruturei o banco relacional manualmente e utilizei a IA apenas para otimizar o layout visual
-
-**Problema 2: Controle de Acesso por Usuário (Ainda em Desenvolvimento)**
-- A dificuldade principal foi configurar o sistema para que cada usuário visualize apenas os clientes que ele mesmo cadastrou
-- Restrições do plano gratuito e limitações técnicas da ferramenta impossibilitaram implementação completa
-- **Mitigação Temporária**: 
-  - Campo 'Nome do Vendedor' mantido visível para rastreabilidade
-  - Barra de pesquisa rápida permite que cada operador localize facilmente seus próprios registros
-  - Esta é uma melhoria prioritária para futuras versões
-
-### Aprendizados
-
-O projeto demonstrou que ferramentas no-code são excelentes para prototipagem rápida, mas apresentam trade-offs entre velocidade de desenvolvimento e controle granular de funcionalidades avançadas.
+- ✅ Visualização de todos os clientes
+- ✅ Rastreamento de responsáveis por cadastro
+- ✅ Acompanhamento de métricas da equipe
+- ✅ Dashboards gerais e relatórios
+- ✅ Gerenciamento centralizado de oportunidades
+- ✅ Monitoramento de operações (aprovadas, pagas)
+- ✅ Controle total de acessos
 
 ---
 
-## 👥 Colaboração
+## 📊 Dados Capturados
 
-O projeto foi desenvolvido **individualmente** (solo) com suporte externo limitado.
+O sistema realiza o cadastro estruturado de:
 
-**Processo Colaborativo:**
-- A única ajuda externa veio da equipe da empresa parceira, que forneceu recomendações de melhorias e casos de uso reais
-- Essas recomendações foram incorporadas ao design do sistema, garantindo aderência aos requisitos do negócio
-
----
-
-## 📝 Registro da Aula
-
-| Item | Detalhes |
-|------|----------|
-| **Data** | 18/05/2026 |
-| **Atividade** | Discussão crítica + mini-projeto de aplicação |
-| **Local** | Laboratório de informática |
-| **Professor(a)** | Kadidja Valéria |
+| Campo | Tipo | Descrição |
+|-------|------|-----------|
+| Nome do Cliente | Texto | Identificação do cliente |
+| CPF | Máscara | Validação de pessoa física |
+| Email | Email | Contato e comunicação |
+| Telefone | Telefone | Comunicação direta |
+| Vínculo | Categoria | Tipo de relação com empresa |
+| Tipo de Operação | Categoria | Produto/serviço solicitado |
+| Status da Operação | Status | Estado atual (pendente, aprovado, pago) |
+| Observações | Texto Longo | Notas e contexto |
+| Responsável | Usuário | Funcionário responsável |
 
 ---
 
-## 🚀 Próximos Passos
+## 🛠️ Stack Tecnológico
 
-### Melhorias Planejadas
+### Plataforma
 
-   **Criar Listas de Futuras Oportunidades**
-   - Pipeline de oportunidades para prospecção
-   - Vinculação entre clientes e oportunidades
+- **[Lovable](https://lovable.dev)** - Plataforma low-code baseada em IA
+- **IA Generativa** - Integração com modelos de linguagem para geração de código
+- **Frontend** - React com componentes modernos
+
+### Design
+
+- **Tema:** Dark Mode
+- **Paleta:** Preto + Azul com Glow elegante
+- **Inspiração:** HubSpot, Pipedrive, Notion, Stripe, Monday
 
 ---
 
-**Autor**: Arthur Coelho  
-**Data de Atualização**: 18/05/2026
+## 🚀 Por que Lovable?
+
+### ✅ Vantagens Implementadas
+
+| Vantagem | Impacto |
+|----------|--------|
+| **Desenvolvimento Ultra-Rápido** | Redução de 70-80% no time-to-market |
+| **Engenharia de Prompts** | Geração de funcionalidades via instruções precisas |
+| **Interface Moderna** | Design profissional sem designer dedicado |
+| **Responsividade** | Funcionamento perfeito em desktop e mobile |
+| **Escalabilidade** | Estrutura preparada para integrações futuras |
+| **Prototipagem Ágil** | Iterações rápidas baseadas em feedback |
+
+### ⚠️ Limitações Identificadas
+
+| Limitação | Mitigação |
+|-----------|-----------|
+| **Dependência da Plataforma** | Documentação completa de arquitetura |
+| **Backend Limitado** | Roadmap para integração com BD real |
+| **Personalizações Avançadas** | Uso estratégico de engenharia de prompts |
+| **Autenticação Robusta** | Planejado para versão 2.0 |
+
+---
+
+## 🎓 Aprendizados Técnicos
+
+### 1. Engenharia de Prompts
+- Estruturação de prompts detalhados para gerar código preciso
+- Iteração e refinamento de instruções para resultados esperados
+- Uso de contexto e exemplos para melhor compreensão da IA
+
+### 2. Arquitetura Low-Code
+- Design modular de funcionalidades
+- Separação clara entre níveis de acesso
+- Reutilização de componentes
+
+### 3. Experiência do Usuário
+- Importância de identidade visual consistente
+- Simplificação de fluxos operacionais
+- Feedback contínuo na iteração
+
+### 4. Gestão de Requisitos
+- Levantamento preciso com stakeholders
+- Priorização de funcionalidades
+- Validação com usuários finais
+
+---
+
+## 📈 Desafios Enfrentados
+
+### Desafio 1: Estrutura Relacional Complexa
+**Problema:** Conectar múltiplas tabelas em um único comando
+**Solução:** Estruturação manual do banco de dados relacional com prompts guiados
+
+### Desafio 2: Controle Granular de Acesso
+**Problema:** Implementar permissões por tipo de usuário
+**Solução:** Separação clara de interfaces e fluxos por role
+
+### Desafio 3: Interface Moderna Mantendo Simplicidade
+**Problema:** Criar design profissional sem complexidade excessiva
+**Solução:** Uso de dark theme elegante e componentes minimalistas
+
+### Desafio 4: Validação de Dados
+**Problema:** Garantir qualidade de cadastros (CPF, Email)
+**Solução:** Máscaras de entrada e validações em tempo real
+
+---
+
+## 🔄 Fluxo de Trabalho
 
