@@ -2,9 +2,7 @@
 
 > Plataforma moderna de gestão de clientes e oportunidades para empresas de empréstimo consignado, desenvolvida com low-code/no-code.
 
-![Status](https://img.shields.io/badge/status-ativo-success)
-![Platform](https://img.shields.io/badge/plataforma-Lovable-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
+🔗 **[Acessar a Plataforma](https://consigno-flow-15.lovable.app/dashboard)**
 
 ---
 
