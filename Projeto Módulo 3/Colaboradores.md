@@ -1,3 +1,0 @@
-Colaboradores:
-
-Arthur Coelho
