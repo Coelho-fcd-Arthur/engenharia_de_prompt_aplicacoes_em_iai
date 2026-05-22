@@ -147,6 +147,3 @@ O sistema realiza o cadastro estruturado de:
 **Solução:** Máscaras de entrada e validações em tempo real
 
 ---
-
-## 🔄 Fluxo de Trabalho
-
