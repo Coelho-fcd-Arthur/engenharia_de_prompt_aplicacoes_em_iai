@@ -44,7 +44,7 @@ O protótipo funciona como um CRM customizado. Funcionários cadastram clientes,
 
 ## 📚 Reflexão Crítica
 
-O grupo contornou as limitações do backend simulando as regras de negócio de controle granular de acesso diretamente no fluxo de interface (roles de usuário). Para resolver as restrições de customização, aplicamos engenharia de prompts avançada com contexto detalhado e instruções modulares para guiar a IA. O risco de dependência foi mitigado com o planejamento de um roadmap focado na exportação do frontend em React e futura integração com um banco de dados real (Versão 2.0).
+Contornei as limitações do backend simulando as regras de negócio de controle granular de acesso diretamente no fluxo de interface (roles de usuário). Para resolver as restrições de customização, apliquei engenharia de prompts avançada com contexto detalhado e instruções modulares para guiar a IA. O risco de dependência foi mitigado com o planejamento de um roadmap focado na exportação do frontend em React e futura integração com um banco de dados real (Versão 2.0).
 
 ---
 
