@@ -1,136 +1,81 @@
-# Gerenciador de Clientes - Empréstimo Consignado
+# Projeto Módulo 3 – Low Code/No Code/Vibecode
 
-> Plataforma moderna de gestão de clientes e oportunidades para empresas de empréstimo consignado, desenvolvida com low-code/no-code.
+## 📌 Desafio Escolhido
 
-🔗 **[Acessar a Plataforma](https://consigno-flow-15.lovable.app/dashboard)**
-
----
-
-## 📋 Sobre o Projeto
-
-O **Gerenciador de Clientes** é uma solução integrada que permite que vendedores e gerentes realizem o gerenciamento completo de clientes e oportunidades de forma moderna, intuitiva e segura.
-
-A plataforma foi desenvolvida como projeto aplicado da disciplina de "Engenharia de Prompt e Aplicações em IA", demonstrando como ferramentas low-code combinadas com engenharia de prompts podem criar soluções profissionais em tempo recorde.
-
-### 🎯 Objetivos
-
-- Simplificar o cadastro e gerenciamento de clientes
-- Implementar controle granular de acesso por tipo de usuário
-- Facilitar prospecção e acompanhamento de oportunidades
-- Fornecer visibilidade gerencial através de dashboards
-- Reduzir tempo de desenvolvimento com low-code
+**Gerenciador de Clientes - Empréstimo Consignado:** Plataforma moderna de gestão de clientes e oportunidades para empresas de empréstimo consignado. O sistema simplifica o cadastro, implementa controle granular de acesso (vendedores vs. gerentes), facilita a prospecção e fornece visibilidade gerencial através de dashboards em modo escuro.
 
 ---
 
-## ✨ Funcionalidades
+## 🖥️ Protótipo
 
-### 👤 Para Funcionários
+O protótipo funciona como um CRM customizado. Funcionários cadastram clientes, atualizam status operacionais (pendente, aprovado, pago) e gerenciam suas próprias oportunidades. Gerentes possuem visão macro, acompanham métricas da equipe, rastreiam responsáveis e monitoram os resultados gerais do negócio.
 
-- ✅ Cadastro intuitivo de clientes
-- ✅ Visualização exclusiva de seus próprios clientes
-- ✅ Edição de informações de clientes
-- ✅ Criação de listas de oportunidades
-- ✅ Atualização de status operacionais
-- ✅ Organização de observações e retornos
-- ✅ Pesquisa e filtros avançados
-
-### 👨‍💼 Para Gerentes
-
-- ✅ Visualização de todos os clientes
-- ✅ Rastreamento de responsáveis por cadastro
-- ✅ Acompanhamento de métricas da equipe
-- ✅ Dashboards gerais e relatórios
-- ✅ Gerenciamento centralizado de oportunidades
-- ✅ Monitoramento de operações (aprovadas, pagas)
-- ✅ Controle total de acessos
+**Link para a aplicação criada:** [Acessar a Plataforma](https://consigno-flow-15.lovable.app/login)
 
 ---
 
-## 📊 Dados Capturados
+## ⚙️ Plataforma Utilizada
 
-O sistema realiza o cadastro estruturado de:
+**Lovable** (lovable.dev)
 
-| Campo | Tipo | Descrição |
-|-------|------|-----------|
-| Nome do Cliente | Texto | Identificação do cliente |
-| CPF | Máscara | Validação de pessoa física |
-| Email | Email | Contato e comunicação |
-| Telefone | Telefone | Comunicação direta |
-| Vínculo | Categoria | Tipo de relação com empresa |
-| Tipo de Operação | Categoria | Produto/serviço solicitado |
-| Status da Operação | Status | Estado atual (pendente, aprovado, pago) |
-| Observações | Texto Longo | Notas e contexto |
-| Responsável | Usuário | Funcionário responsável |
+**Justificativa da escolha:** A ferramenta combina uma plataforma low-code baseada em React com IA generativa avançada. Ela foi selecionada por permitir o desenvolvimento ultra-rápido do frontend (redução de 70-80% no tempo de criação) e a iteração imediata da interface via engenharia de prompts.
 
 ---
 
-## 🛠️ Stack Tecnológico
+## ✅ Vantagens Identificadas
 
-### Plataforma
+1. **Protótipo rápido** – Iterações baseadas em feedback em tempo recorde
 
-- **[Lovable](https://lovable.dev)** - Plataforma low-code baseada em IA
-- **IA Generativa** - Integração com modelos de linguagem para geração de código
-- **Frontend** - React com componentes modernos
+2. **Engenharia de prompts** – Geração de funcionalidades complexas via instruções em texto
 
-### Design
-
-- **Tema:** Dark Mode
-- **Paleta:** Preto + Azul com Glow elegante
-- **Inspiração:** HubSpot, Pipedrive, Notion, Stripe, Monday
+3. **Interface moderna** – Design profissional com tema dark nativo e responsivo para mobile e desktop
 
 ---
 
-## 🚀 Por que Lovable?
+## ⚠️ Limitações Encontradas
 
-### ✅ Vantagens Implementadas
+1. **Customização limitada** – Restrições em personalizações e lógicas muito avançadas da IA
 
-| Vantagem | Impacto |
-|----------|--------|
-| **Desenvolvimento Ultra-Rápido** | Redução de 70-80% no time-to-market |
-| **Engenharia de Prompts** | Geração de funcionalidades via instruções precisas |
-| **Interface Moderna** | Design profissional sem designer dedicado |
-| **Responsividade** | Funcionamento perfeito em desktop e mobile |
-| **Escalabilidade** | Estrutura preparada para integrações futuras |
-| **Prototipagem Ágil** | Iterações rápidas baseadas em feedback |
+2. **Dependência da plataforma** – O código e a execução ficam atrelados ao ecossistema do Lovable
 
-### ⚠️ Limitações Identificadas
-
-| Limitação | Mitigação |
-|-----------|-----------|
-| **Dependência da Plataforma** | Documentação completa de arquitetura |
-| **Backend Limitado** | Roadmap para integração com BD real |
-| **Personalizações Avançadas** | Uso estratégico de engenharia de prompts |
-| **Autenticação Robusta** | Planejado para versão 2.0 |
+3. **Backend limitado** – Ausência inicial de um banco de dados relacional robusto e autenticação complexa
 
 ---
 
-## 🎓 Aprendizados Técnicos
+## 📚 Reflexão Crítica
 
-### 1. Engenharia de Prompts
-- Estruturação de prompts detalhados para gerar código preciso
-- Iteração e refinamento de instruções para resultados esperados
-- Uso de contexto e exemplos para melhor compreensão da IA
-
-### 2. Arquitetura Low-Code
-- Design modular de funcionalidades
-- Separação clara entre níveis de acesso
-- Reutilização de componentes
-
-### 3. Experiência do Usuário
-- Importância de identidade visual consistente
-- Simplificação de fluxos operacionais
-- Feedback contínuo na iteração
+O grupo contornou as limitações do backend simulando as regras de negócio de controle granular de acesso diretamente no fluxo de interface (roles de usuário). Para resolver as restrições de customização, aplicamos engenharia de prompts avançada com contexto detalhado e instruções modulares para guiar a IA. O risco de dependência foi mitigado com o planejamento de um roadmap focado na exportação do frontend em React e futura integração com um banco de dados real (Versão 2.0).
 
 ---
 
-## 📈 Desafios Enfrentados
+## 👥 Colaboração
 
-### Desafio 1: Controle Granular de Acesso
-**Problema:** Implementar permissões por tipo de usuário
-**Solução:** Separação clara de interfaces e fluxos por role
+O grupo dividiu as tarefas com base em competências complementares:
 
-### Desafio 2: Interface Moderna Mantendo Simplicidade
-**Problema:** Criar design profissional sem complexidade excessiva
-**Solução:** Uso de dark theme elegante e componentes minimalistas
+| Área | Responsabilidade |
+|------|------------------|
+| **Requisitos & Modelagem** | Mapeamento de requisitos de negócio e modelagem dos dados capturados (CPF, Vínculo, Status) |
+| **Design & Identidade Visual** | Definição da paleta de cores e estilo inspirado no Stripe e HubSpot |
+| **Engenharia de Prompts** | Escrita, teste e refinamento das instruções na plataforma Lovable para geração dos componentes |
 
 ---
+
+## 📝 Registro da Aula
+
+**Data:** 11/05/2026
+
+**Atividade:** Discussão crítica + mini-projeto de aplicação
+
+**Local:** Laboratório de informática / Quadro branco
+
+**Professor(a):** Kadidja Valéria
+
+---
+
+## 🚀 Próximos Passos
+
+- Implementação de um sistema de autenticação robusto e seguro para login de usuários
+
+- Integração com um banco de dados em nuvem real (PostgreSQL/Supabase) para persistência definitiva dos dados
+
+- Evolução do painel gerencial no Projeto Final da Unidade 3, adicionando relatórios automatizados exportáveis e gráficos financeiros em tempo real
