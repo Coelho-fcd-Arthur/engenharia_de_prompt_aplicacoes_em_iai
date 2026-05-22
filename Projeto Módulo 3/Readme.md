@@ -121,29 +121,16 @@ O sistema realiza o cadastro estruturado de:
 - Simplificação de fluxos operacionais
 - Feedback contínuo na iteração
 
-### 4. Gestão de Requisitos
-- Levantamento preciso com stakeholders
-- Priorização de funcionalidades
-- Validação com usuários finais
-
 ---
 
 ## 📈 Desafios Enfrentados
 
-### Desafio 1: Estrutura Relacional Complexa
-**Problema:** Conectar múltiplas tabelas em um único comando
-**Solução:** Estruturação manual do banco de dados relacional com prompts guiados
-
-### Desafio 2: Controle Granular de Acesso
+### Desafio 1: Controle Granular de Acesso
 **Problema:** Implementar permissões por tipo de usuário
 **Solução:** Separação clara de interfaces e fluxos por role
 
-### Desafio 3: Interface Moderna Mantendo Simplicidade
+### Desafio 2: Interface Moderna Mantendo Simplicidade
 **Problema:** Criar design profissional sem complexidade excessiva
 **Solução:** Uso de dark theme elegante e componentes minimalistas
-
-### Desafio 4: Validação de Dados
-**Problema:** Garantir qualidade de cadastros (CPF, Email)
-**Solução:** Máscaras de entrada e validações em tempo real
 
 ---
